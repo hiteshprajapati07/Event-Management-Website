@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --bg-color: #ffffff;
+    --main-color:#4b9e22;
+    --text-color:#000000;
+    --other-color:#83868c;
+    --second-color:#d9d9d9;
+    --orange--:orange;
+
+    --h1-font: 2.5rem;
+    --h2-font:2.3rem;
+    --p-font:20px;
+}
+
+#contactsection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactsection img{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#contactsection .contactabsolute{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#contactsection .contactus{
+    position: relative;
+    left: 240;
+    background: orange;
+    padding: 40px 50px;
+    box-shadow: 0px 0px 10px 1px grey;
+}
+#contactsection .contactus div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px;
+}
+#contactsection .contactus h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#contactsection .contactus div i{
+    font-size: 30px;
+    padding: 0px 20px;
+} 
+#contactsection .contactus div p{
+    font-size: 20px;
+    padding: 0px 20px;
+    color: var(--bg-color);
+} 
+#contactsection .contactabsolute .getintouch{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px 20px 20px 400px;
+}
+#contactsection .contactabsolute .getintouch h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+#contactsection .contactabsolute .getintouch p{
+    padding: 5px 0px;
+}
+#contactsection .contactabsolute .getintouch .contactinput{
+    display: flex;
+    flex-direction: column;
+}
+#contactsection .contactabsolute .getintouch .contactinput input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 10px 0px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+#contactsection .contactabsolute .getintouch .contactinput textarea{
+font-size: 20px;
+outline: none;
+padding:10px 20;
+background: transparent;
+}
+#contactsection .contactabsolute .getintouch .contactinput button{
+    width: 150px;
+    /* height: 50px; */
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 8px 30px;
+    outline: none;
+    border: 0.3px solid grey;
+    margin: 20px 0px;
+    background-color: orange;
+    transition: all .3s ease;
+    color: var(--bg-color);
+    font-weight: 600;
+}
+#contactsection .contactabsolute .getintouch .contactinput button:hover{
+    background-color: white;
+    color: orange;
+}
